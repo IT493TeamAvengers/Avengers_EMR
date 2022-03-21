@@ -944,7 +944,7 @@ $oemr_ui = new OemrUI($arrOeUiSettings);
                             'linkMethod' => "html",
                             'auth' => ACLMain::aclCheckCore('patients', 'demo', '', 'write'),
                             'requireRestore' => (!isset($_SESSION['patient_portal_onsite_two'])) ? true : false,
-                            'initiallyCollapsed' => getUserSetting("demographics_ps_expand") == true ? true : false,
+                            'initiallyCollapsed' => getUserSetting("demographics_ps_expand") == true ? true : true,
                             'tabID' => "DEM",
                             'result' => $result,
                             'result2' => $result2,
@@ -1042,24 +1042,7 @@ $oemr_ui = new OemrUI($arrOeUiSettings);
 
                     
 
-                    if (AclMain::aclCheckCore('patients', 'reminder') && $GLOBALS['enable_cdr'] && $GLOBALS['enable_cdr_prw']) :
-                        // patient reminders collapse widget
-                        $dispatchResult = $ed->dispatch(CardRenderEvent::EVENT_HANDLE, new CardRenderEvent('reminder'));
-                        $id = "patient_reminders_ps_expand";
-                        $viewArgs = [
-                            'title' => xl('Patient Reminders'),
-                            'id' => $id,
-                            'initiallyCollapsed' => (getUserSetting($id) == 0) ? false : true,
-                            'btnLabel' => 'Edit',
-                            'btnLink' => '../reminder/patient_reminders.php?mode=simple&patient_id=' . attr_url($pid),
-                            'linkMethod' => 'html',
-                            'bodyClass' => 'notab collapse show',
-                            'auth' => AclMain::aclCheckCore('patients', 'reminder', '', 'write'),
-                            'prependedInjection' => $dispatchResult->getPrependedInjection(),
-                            'appendedInjection' => $dispatchResult->getAppendedInjection(),
-                        ];
-                        echo $twig->getTwig()->render('patient/card/loader.html.twig', $viewArgs);
-                    endif; //end if prw is activated
+                    
 
                     
 
