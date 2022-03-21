@@ -1,0 +1,19 @@
+Edits the Main Navigation Menu -
+  interface/main/tabs/menu/menus/standard.json
+
+Edits the Menu above the patient Medical Record Dashboard (Dashboard, History, Documents, Issues, etc)
+  interface/main/tabs/menu/menus/patient_menus/standard.json
+
+Edits the information displayed in a patient record -
+  interface/patient_file/summary/demographics.php
+
+Edits the login page -
+  /login/login.php
+  - I removed the OpenEMR Product Registration popup 
+  
+Edits the SQL Database
+  /sql/database.sql
+  - Removed unneeded fields for patient data
+  - In order for changes to appear in application i needed to run these 2 commands:
+    sudo docker-compose down -v
+    sudo docker-compose up
