@@ -4,6 +4,9 @@ Edits the Main Navigation Menu -
 Edits the Menu above the patient Medical Record Dashboard (Dashboard, History, Documents, Issues, etc)
   interface/main/tabs/menu/menus/patient_menus/standard.json
 
+Removed the History and Encounter buttons that appear at the top when viewing a patient record -
+  /interface/main/tabs/templates/patient_data_template.json
+
 Edits the information displayed in a patient record -
   interface/patient_file/summary/demographics.php
 
