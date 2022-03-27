@@ -10,6 +10,17 @@ Updated login page to show avengers logo
 Added avengers logo .svg file
   /public/images/
 
+Instructions to add Eye Exam form:
+  1. Open a patient record from the Patient Finder
+  2. Create an 'Encounter'
+  3. Minimum requirement is to make a selection for the 'Office Visit:' the first dropdown box the click SAVE
+  4. Click on the 'Clinical' tab and select 'Eye Exam'
+  
+Renamed some of the tab menus 
+Patient/Client is now Patient
+Patient renamed to Patient Finder
+  interface/main/tabs/menu/menus/standard.json
+
 3/20/22 -
 
 Edits the Main Navigation Menu -
