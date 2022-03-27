@@ -34,12 +34,12 @@
 
 
   {
-    "label": "Patient/Client",
+    "label": "Patient",
     "menu_id": "patimg",
     "children": [
     	     
       {
-        "label": "Patients",
+        "label": "Patient Finder",
         "menu_id": "fin0",
         "target": "fin",
         "url": "/interface/main/finder/dynamic_finder.php",
@@ -384,18 +384,6 @@
         "acl_req": [
           "admin",
           "users"
-        ]
-      },
-      {
-        "label": "Address Book",
-        "menu_id": "adb0",
-        "target": "adm",
-        "url": "/interface/usergroup/addrbook_list.php",
-        "children": [],
-        "requirement": 0,
-        "acl_req": [
-          "admin",
-          "practice"
         ]
       },
       {
