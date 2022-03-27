@@ -1,8 +1,14 @@
 3/27/22 -
 
 Added back the History and Encounter buttons (need them to add a patient form)
-REMOVED my edit file uploaded to GitHub
+REMOVED my edited file uplaoaded to GitHub
   /interface/main/tabs/templates/patient_data_template.php
+  
+Updated login page to show avengers logo
+  /interface/login/login.php
+
+Added avengers logo .svg file
+  /public/images/
 
 3/20/22 -
 
@@ -13,7 +19,7 @@ Edits the Menu above the patient Medical Record Dashboard (Dashboard, History, D
   interface/main/tabs/menu/menus/patient_menus/standard.json
 
 Removed the History and Encounter buttons that appear at the top when viewing a patient record -
-  /interface/main/tabs/templates/patient_data_template.json
+  /interface/main/tabs/templates/patient_data_template.php
 
 Edited the 'Provider not available' prompt to say 'Press OK to confirm' instead -
   /interface/main/calendar/find_appt_popup.php
