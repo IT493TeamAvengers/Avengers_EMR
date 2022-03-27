@@ -22,6 +22,9 @@ Patient renamed to Patient Finder
   
 Removed unnecessary box on the 'Encounter' form
   interface/patient_file/encounter/forms.php
+  
+Updated database.sql file to removed unnecessary tabs from 'Administrative'
+  sql/database.sql
 
 3/20/22 -
 
