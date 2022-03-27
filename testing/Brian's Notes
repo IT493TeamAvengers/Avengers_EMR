@@ -1,6 +1,7 @@
 3/27/22 -
 
 Added back the History and Encounter buttons (need them to add a patient form)
+REMOVED my edit file uploaded to GitHub
   /interface/main/tabs/templates/patient_data_template.php
 
 3/20/22 -
