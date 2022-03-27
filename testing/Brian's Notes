@@ -16,10 +16,12 @@ Instructions to add Eye Exam form:
   3. Minimum requirement is to make a selection for the 'Office Visit:' the first dropdown box the click SAVE
   4. Click on the 'Clinical' tab and select 'Eye Exam'
   
-Renamed some of the tab menus 
 Patient/Client is now Patient
 Patient renamed to Patient Finder
   interface/main/tabs/menu/menus/standard.json
+  
+Removed unnecessary box on the 'Encounter' form
+  interface/patient_file/encounter/forms.php
 
 3/20/22 -
 
