@@ -34,6 +34,10 @@ Administration -> Users
         Last Name:
             Change to: "Duong"
         Save
+        
+Administration -> Calendar
+        Default Calendar View:
+            Change to: 'Month'
 
 Patient -> Facilities
     Click on 'Your Clinic Name Here'
