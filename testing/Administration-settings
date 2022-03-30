@@ -26,18 +26,18 @@ Administration -> Global
             Show Tagline on Login Page*
             
         Save
-        
-Administration -> Users
-    Click on Username 'admin'
-        First Name:
-            Change to: "Dr. Tuan"
-        Last Name:
-            Change to: "Duong"
-        Save
-        
-Administration -> Calendar
+               
+    Calendar
         Default Calendar View:
             Change to: 'Month'
+            
+Administrative -> Users
+        Click on Username 'admin'
+            First Name:
+                Change to: "Dr. Tuan"
+            Last Name:
+                Change to: "Duong"
+            Save
 
 Patient -> Facilities
     Click on 'Your Clinic Name Here'
